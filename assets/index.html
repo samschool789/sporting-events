@@ -7,21 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Concert Explorer</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <!--Add link to Bulma framework-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   </head>
   <body>
-    <h1>Concert Explorer</h1>
+    <!--Make title distinct-->
+    <h1 class="title is-1 is-spaced has-text-white">Concert Explorer</h1>
     <div>
-      <button id="location-button">Input Location</button>
+      <!--Make the buttons distinct-->
+      <button class="button is-info" id="location-button">Input Location</button>
     </div>
     <div id="enter-location" class="enter-location">
-      <input type="text" id="input-location">
+      <input class="input is-rounded" type="text" placeholder="Enter Location" id="input-location">
       
     </div>
     <div>
-      <button id="insert-day">Insert Day</button>
+      <button class="button is-info" id="insert-day">Insert Day</button>
     </div>
     <div id="enter-day" class="enter-day">
-      <input type="text" id="input-day">
+      <input class="input is-rounded" type="text" placeholder="Enter Date"id="input-day">
       
     </div>
   </body>
