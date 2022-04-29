@@ -1,4 +1,12 @@
+body {
+    background-image: url("../Images/ad2c69b1fc1fadce6dd602403a050042.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 1000px; /*specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
 h1 {
-    background-color: hsl(217,71%,53%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(217,71%,53%); /*Color for the header*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Specified Font*/
 }
