@@ -15,17 +15,17 @@
     <h1 class="title is-1 is-spaced has-text-white">Concert Explorer</h1>
     <div>
       <!--Make the buttons distinct-->
-      <button class="button is-info is-rounded" id="location-button">Input Location</button>
+      <button class="button is-info is-rounded" id="location-button" data-type="location">Input Location</button>
     </div>
     <div id="enter-location" class="enter-location">
-      <input class="input is-rounded" type="text" style="width:33%;" placeholder="Enter Location" id="input-location">
+      <input class="input is-rounded" type="text" style="width:33%;" placeholder="Enter Location" id="input-location" >
       
     </div>
     <div>
-      <button class="button is-info is-rounded" id="insert-day">Insert Date</button>
+      <button class="button is-info is-rounded" id="insert-day" data-type="day">Insert Date</button>
     </div>
     <div id="enter-day" class="enter-day">
-      <input class="input is-rounded" type="text" style="width:33%;" placeholder="Enter Date"id="input-day">
+      <input class="input is-rounded" type="text" style="width:33%;" placeholder="Enter Date"id="input-day" >
       
     </div>
     <div id="app">
@@ -35,6 +35,7 @@
       <table id="employees"></table>
     </div>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
   <script src="./js/script.js"></script>
 </html>
 
