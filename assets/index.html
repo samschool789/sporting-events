@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <!--Add link to Bulma framework-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+
   </head>
   <body>
     <!--Make title distinct-->
@@ -25,14 +26,11 @@
       <button class="button is-info is-rounded" id="insert-day" data-type="day">Insert Date</button>
     </div>
     <div id="enter-day" class="enter-day">
-      <input class="input is-rounded" type="text" style="width:33%;" placeholder="Enter Date"id="input-day" >
+      <input class="input is-rounded" type="text" style="width:33%;" placeholder="Enter Date and Time"id="input-day" onfocus="(this.type='datetime-local')" onblur="(this.type='text')">
       
     </div>
     <div id="app">
       
-    </div>
-    <div>
-      <table id="employees"></table>
     </div>
   </body>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js"></script>
