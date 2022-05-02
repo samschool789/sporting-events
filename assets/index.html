@@ -14,20 +14,21 @@
   <body>
     <!--Make title distinct-->
     <h1 class="title is-1 is-spaced has-text-white">Concert Explorer</h1>
-    <div>
-      <!--Make the buttons distinct-->
-      <button class="button is-info is-rounded" id="location-button" data-type="location">Input Location</button>
-    </div>
+   
     <div id="enter-location" class="enter-location">
       <input class="input is-rounded" type="text" style="width:33%;" placeholder="Enter Location" id="input-location" >
       
     </div>
-    <div>
-      <button class="button is-info is-rounded" id="insert-day" data-type="day">Insert Date</button>
-    </div>
+    
     <div id="enter-day" class="enter-day">
       <input class="input is-rounded" type="text" style="width:33%;" placeholder="Enter Date and Time"id="input-day" onfocus="(this.type='datetime-local')" onblur="(this.type='text')">
       
+    </div>
+     <div>
+      <!--Make the buttons distinct-->
+      <button class="button is-info is-rounded" id="location-button" data-type="location">Search By Location</button>
+      <button class="button is-info is-rounded" id="insert-day" data-type="day">Search By Date</button>
+      <button class="button is-info is-rounded" id="search-all" data-type="all">Search By Both</button>
     </div>
     <div id="app">
       
