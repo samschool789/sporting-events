@@ -1,5 +1,5 @@
 html {
-    background-image: url("../Images/ad2c69b1fc1fadce6dd602403a050042.jpg"); /* The image used */
+    background-image: url("../Images/i1081-poprocksoul-bg-px1763075.jpg" ); /* The image used */
     background-color: #cccccc; /* Used if the image is unavailable */
     min-height: 1000px; /*specified height */
     background-position: center; /* Center the image */
@@ -12,10 +12,23 @@ h1 {
 }
 
 #app {
-    margin: 20px;
+    margin: 10px;
+    border-radius: 25px;
     background-color: white;
 
 }
 #app img {
+    position: relative;
     width: 400px;
+    border:10px solid white;
+    border-radius: 25px
+}
+#app :hover {
+    transform: scale(1.01);
+    transition: all .5s;
+}
+@media screen and (max-width: 800px){
+    .b1 .b2 .b3 {
+        width: 100%
+    }
 }

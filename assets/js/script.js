@@ -29,7 +29,7 @@ function getTMData(event) {
                     <p><img src="${user.images[0].url}"/></p>
                     <p>Name: ${user.name}</p>
                     <p>Venue: ${user._embedded.venues[0].name}</p>
-                   
+                    <p>Date: ${user.dates.start.localDate}</p>
                     </div>
                     `;
         })
