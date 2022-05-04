@@ -1,8 +1,6 @@
 var locationbutton = document.getElementById("location-button");
 var datebutton = document.getElementById("insert-day");
 var searchAllButton = document.getElementById("search-all");
-
-
 //https://app.ticketmaster.com/discovery/v2/events?apikey=WnWHht4MA16AjiAHUluHIRgWaK2QymjF&locale=*&city=kansas%20city%20&countryCode=US&classificationName=music
 function getTMData(event) {
   console.log(event.currentTarget.dataset.type);
@@ -32,7 +30,6 @@ function getTMData(event) {
                     <p>Name: ${user.name}</p>
                     <p>Venue: ${user._embedded.venues[0].name}</p>
                     <p>Date: ${user.dates.start.localDate}</p>
-                    <p>Tickets: ${user.url}</p>
                     </div>
                     `;
         })
