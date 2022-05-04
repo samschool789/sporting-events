@@ -29,7 +29,7 @@ function getTMData(event) {
                     <p><img src="${user.images[0].url}"/></p>
                     <p>Name: ${user.name}</p>
                     <p>Venue: ${user._embedded.venues[0].name}</p>
-                   
+                    <p>Date: ${user.dates.start.localDate}</p>
                     </div>
                     `;
         })
@@ -44,4 +44,8 @@ function getTMData(event) {
 
 locationbutton.addEventListener("click", getTMData);
 datebutton.addEventListener("click", getTMData);
+<<<<<<< HEAD
 searchAllButton.addEventListener("click", getTMData);
+=======
+searchAllButton.addEventListener("click", getTMData);
+>>>>>>> 9f4756d7b386f4588fdef8a60fb823d29a8cffbf
