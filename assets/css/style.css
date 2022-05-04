@@ -1,9 +1,5 @@
 html {
-<<<<<<< HEAD
-    background-image: url("../Images/ad2c69b1fc1fadce6dd602403a050042.jpg"); /* The image used */
-=======
     background-image: url("../Images/i1081-poprocksoul-bg-px1763075.jpg" ); /* The image used */
->>>>>>> 9f4756d7b386f4588fdef8a60fb823d29a8cffbf
     background-color: #cccccc; /* Used if the image is unavailable */
     min-height: 1000px; /*specified height */
     background-position: center; /* Center the image */
@@ -16,19 +12,12 @@ h1 {
 }
 
 #app {
-<<<<<<< HEAD
-    margin: 20px;
-=======
     margin: 10px;
     border-radius: 25px;
->>>>>>> 9f4756d7b386f4588fdef8a60fb823d29a8cffbf
     background-color: white;
 
 }
 #app img {
-<<<<<<< HEAD
-    width: 400px;
-=======
     position: relative;
     width: 400px;
     border:10px solid white;
@@ -42,5 +31,4 @@ h1 {
     .b1 .b2 .b3 {
         width: 100%
     }
->>>>>>> 9f4756d7b386f4588fdef8a60fb823d29a8cffbf
 }
