@@ -44,8 +44,4 @@ function getTMData(event) {
 
 locationbutton.addEventListener("click", getTMData);
 datebutton.addEventListener("click", getTMData);
-<<<<<<< HEAD
 searchAllButton.addEventListener("click", getTMData);
-=======
-searchAllButton.addEventListener("click", getTMData);
->>>>>>> 9f4756d7b386f4588fdef8a60fb823d29a8cffbf
