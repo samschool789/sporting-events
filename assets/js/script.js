@@ -30,7 +30,7 @@ function getTMData(event) {
                     <p>Name: ${user.name}</p>
                     <p>Venue: ${user._embedded.venues[0].name}</p>
                     <p>Date: ${user.dates.start.localDate}</p>
-                    <p>Tickets: ${user.url}</p>
+                    <p>Tickets: <a href=${user.url}>Tickets</a></p>
                     </div>
                     `;
         })
