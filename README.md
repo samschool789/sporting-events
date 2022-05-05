@@ -10,6 +10,6 @@
 
 
 
-[project link](https://github.com/samschool789/sporting-events)
+[project link](https://samschool789.github.io/sporting-events/)
 
 ![image](./assets/Images/READMEimg.png)
