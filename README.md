@@ -1,12 +1,12 @@
-# sporting-events
+# Concert Explorer
 
-# As a user I want to be able to pick a sporting event.
+# As a user I want to be able to pick a location for a concert.
 
-# I want to know the time of the event
+# When I pick a location want to see concerts in that city.
 
-# I want to be able to purchase tickets for the event
+# I want to be able to purchase tickets for the event.
 
-# Be able to pick a date so I can plan accordingly
+# Be able to pick a date so I can plan accordingly.
 
 
 
