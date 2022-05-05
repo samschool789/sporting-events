@@ -18,14 +18,18 @@ h1 {
 
 }
 #app img {
-    position: relative;
     width: 400px;
     border:10px solid white;
     border-radius: 25px
 }
-#app :hover {
+.user :hover {
     transform: scale(1.01);
     transition: all .5s;
+    font-weight:bolder;
+}
+.user {
+    column-count:3; 
+    line-height:15pt; 
 }
 @media screen and (max-width: 800px){
     .b1 .b2 .b3 {

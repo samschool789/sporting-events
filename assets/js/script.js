@@ -26,11 +26,12 @@ function getTMData(event) {
         .map((user) => {
           return `
                     <div class="user">
+                    <a class='has-text-white' href=${user.url} target=_blank>
                     <p><img src="${user.images[0].url}"/></p>
                     <p>Name: ${user.name}</p>
                     <p>Venue: ${user._embedded.venues[0].name}</p>
                     <p>Date: ${user.dates.start.localDate}</p>
-                    <p>Tickets: <a href=${user.url} target=_blank>Tickets</a></p>
+                    </a>
                     </div>
                     `;
         })
